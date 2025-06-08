@@ -18,7 +18,7 @@ async fn metrics_handler() -> impl IntoResponse {
 
     let sys = System::new_with_specifics(refresh);
 
-    let uptime = System::uptime(); // uptime agora é função associada estática
+    let uptime = System::uptime(); 
     let total_memory = sys.total_memory();
     let used_memory = sys.used_memory();
     let cpu_usage = sys.global_cpu_info().cpu_usage();
