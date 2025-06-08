@@ -1,8 +1,8 @@
 # mini\_metrics\_cli
 
-`mini_metrics_cli` is a lightweight Rust-based HTTP server that exposes real-time system metrics — like uptime, memory usage, and CPU utilization — in a Prometheus-compatible format.
+`mini_metrics_cli` is a lightweight Rust-based HTTP server that exposes real-time system metrics, like uptime, memory usage, and CPU utilization, in a Prometheus-compatible format.
 
-This project was designed as an experiment in learning how to combine system introspection with a minimal async web API. It’s ideal as a learning tool or a small utility in dev environments.
+This project was designed as an experiment in learning how to combine system introspection with a minimal async web API.
 
 ---
 
